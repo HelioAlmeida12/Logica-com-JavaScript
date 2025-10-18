@@ -1,0 +1,54 @@
+Os 7 passos para aprender programação.
+
+1. Escolher a linguagem certa(Não existe a "melhor")
+
+    Kotlin: Ideal para apps androids
+    Java: Muito usado no mercado corporativo
+    JavaScript: Essencial para web
+    swift: Ideal para ecossistemas Apple
+    GO: Ideal para APIS de alto desempenho
+
+2. Fundamentos: A parte mais importante
+
+    1. Variáveis
+    2. Tipos de dados (números, textos, booleanos...)
+    3. Operadores (de comparação, lógicos, matématicos)
+    4. condicionais (if, else)
+    5. Loops (for, while)
+    6. funções
+    7. Listas e dicionarios (ou arrays/maps)
+    8. Orientação a objetos(classes, objetos, herança)
+
+3. aprender fazendo:
+    
+    3.1: Projetos simples e eficentes
+        -conversor de unidades
+        -Gerador de senhas
+        -TO-DO list (lista de tarefas)
+    
+    3.2: Projetos validos e desafiadores
+        -Clone de apps famosos
+        -Consumo de API
+        -Apps com banco de dados local
+
+4. Montar seu Portfólio:
+    -Desenvolvimento android com Jetpack compose (Kotlin)
+    -Desenvolvimento CLI com table (GO)
+    -Desenvolvimento Web com React (js)
+    -Desenvolvimento IOS com UIKIT (swift)
+
+5. Soft Skills: Seu código não vive sozinho
+    -comunicação
+    -Saber trabalhar em equipe
+    -É proativo(autonomia)
+    -Sabe esxplicar ideias com clareza
+    -Tem organização(gestão de tempo)
+    -Aprende rápido
+
+6. Ferramentas
+    -Git e GitHub: O passaporte para trabalhar em equipe
+    -AI: Agents Code(cautela)
+    -Metodologias Ágeis
+    -Terminal
+
+7. Ficar Atualizado e Evoluir com o mercado o

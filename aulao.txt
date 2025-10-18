@@ -1,0 +1,87 @@
+EMPRESA
+    PRODUTO
+        DESENVOLVEDOR - DESENVOLVER E MANTER O PRODUTO 
+
+        FRONT
+        BACK END
+        MOBILE
+        DESKTOP
+
+    COMO DESENVOLVER UM SISTEMA?
+        LEVANTAMENTO DE REQUISITOS
+        DESENVOLVIMENTO
+
+        DESENVOLVIMENTO DE UM SISTEMA DE GERAÇÃO DE RELATORIOS
+            BUSCAR DADOS
+            PROCESSAR DADOS
+                COMO PROCESSAR
+                QUAIS DADOS PROCESSAR
+            CRIAR PDF COM OS DADOS
+
+        BANCOS DE DADOS
+            ARMAZENAR E MANIPULAR DADOS
+        
+        TIPOS DE DADOS  
+            TEXTOS - STRING
+            NUMEROS INTEIROS - NUMBER OU INT 
+            VERDADEIRO OU FALSO - TRUE OR FALSE (BOOLEAN)
+            NUMEROS COM CASAS DECIMAIS - FLOAT
+            DATE
+            OBJECT
+            ARRAY - AGRUPAMENTO SEPARADO POR VIRGULA
+
+           [
+             {
+                nome:"Hélio",
+                email:"Helio@gmail.com",
+                telefone: "(34) 9999-9999",
+                ativo: true,
+                data_de_inscricao: "10/05/2023",
+                preco_matricula: 10.25
+                familiares:[
+                    {
+                        nome: "Rodrigo",
+                        email: "rodrigo@gmail.com
+                    },
+                    {
+                        nome: "Moisés",
+                        email: "moises@gmail.com"
+                    }
+                
+                ]
+             },
+
+            {
+                nome:"LUCAS",
+                email:"LUCAS@gmail.com",
+                telefone: "(34) 9999-9666999",
+                ativo: FALSE,
+                data_de_inscricao: "10/05/2013"
+            }
+           ]
+
+            
+            relatorios
+             id - string | number
+             nome - string (texto)
+             data - date(data)
+             dados_alunos - {
+                nome:"Hélio",
+                email:"Helio@gmail.com",
+                telefone: "(34) 9999-9999"
+                ativo: true
+                data_de_inscricao: "10/05/2023"
+             }
+
+
+            CRUD (CREATE - READ - UPDATE - DELETE)
+ -----------------
+
+ FUNÇÕES - functions
+
+ function adicionarUsuario(){
+     
+ }
+
+ LOOPS
+  
