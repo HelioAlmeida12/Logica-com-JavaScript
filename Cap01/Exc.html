@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        
+       const preco = Number(prompt("Preço do produto: "))
+       alert("Possuimos os seguintes métodos de pagamento\n À vista com 10% de desconto \n e ou em 3x")
+       const avista = preco * 0.10
+       const parc = preco / 3
+       const total = preco - avista
+
+       alert(`À vista: ${total}\n Parcelado ${parc.toFixed(2)}`)
+    </script>
+</body>
+</html>
