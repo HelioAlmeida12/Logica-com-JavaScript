@@ -52,3 +52,10 @@ Os 7 passos para aprender programação.
     -Terminal
 
 7. Ficar Atualizado e Evoluir com o mercado o
+
+
+Como atualizar repositorio no GitHub?
+    1. git status
+    2. git add .
+    3. git commit -m "mensagem de atualização"
+    4. git push origin main
