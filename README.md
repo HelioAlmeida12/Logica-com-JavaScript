@@ -1,1 +1,1 @@
-Estudos relacionado com Lógica de programação e algoritmos com JavaScript
+Estudos com exercicios de Lógica de programação e algoritmos com JavaScript
