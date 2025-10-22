@@ -11,7 +11,7 @@ frm.addEventListener("submit", (e) =>{ //escuta evento submit do form
     e.preventDefault()
     const numero = Number(frm.inNumero.value) //Ob´tem número digitado
     if(numero == sorteado){ //se acertou
-        respDica.innerText = `Parabéns!! Numero sorteado: ${numero} `
+        respDica.innerText = `Parabéns!! Numero sorteado: ${sorteado} `
         frm.btSubmit.disable = true //troca status dos botões
         frm.btNovo.className = "exibe"
     } else{
@@ -38,5 +38,9 @@ frm.addEventListener("submit", (e) =>{ //escuta evento submit do form
     }
     frm.inNumero.value = "" //limpa campo de entrada
     frm.inNumero.focus() //posiciona cursor neste campo
-
 })
+
+frm.btNovo.addEventListener("click", () =>{
+    location.reload() //recarrega a página
+})
+
