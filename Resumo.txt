@@ -1,0 +1,76 @@
+O que eu aprendi até hoje (25/10/2025)?
+------------------------------------------------------------------------------------------
+Capitulo 1:
+
+    Aprendi o que são as variaveis e constantes e como declara-las e usa-las. 
+    Aprendi a fazer calculos de média, usar o alert junto com a template string. 
+    Aprendi a usar a função prompt para receber dados externos.
+
+    Resumo: Nesse Capitulo foi abordado o assunto de como receber dados externos 
+            pelo prompt, fazer calculos e mostrar a resposta no alert com template string
+
+ -----------------------------------------------------------------------------------------          
+
+Capitulo 2:
+    Métodos querySelectorSelector() e getElementoById()
+        Nesse tópico foi abordado sobre esses dois métodos e como usa-los.
+        Os métodos querySelector e getElementoById são utilizados para referenciar
+            qualquer elemento na página.
+    Exemplo: const frm = document.querySelector("form")        
+    
+    Aprendemos também sobre Introdução a eventos e funções
+        Nesse tópico foi abordado sobre:
+            Ouvinte de evento (addEventListener())
+
+            arrow function (função da seta) Sintaxe básica:
+                const some = (a, b) => a + b;
+                
+            A estrutura desses dois métodos fica:
+                frm.addEventListener("submit, change, click, blur ou load", (e) => {comandos})
+
+                OBS: (e) é o evento que aconteceu,
+                      e você pode usá-lo para controlar, impedir ou acessar informações sobre esse evento.
+
+    Foi abordado sobre innerText, innerHTML e value
+
+        innerText: Consulta ou altera o texto exibido por elementos HTML como
+         paragrafos, cabeçalhos ou containers
+
+        innerHTML: Consulta ou altera o conteudo de elementos HTML como paragrafos
+         cabeçalhos ou containers. Códigos HTML presentes no conteudo são renderizados
+         pelo navegador.
+
+        value: Consulta ou altera o conteudo de campos de formulario
+
+    Método preventDefault()
+        Por padrão quando o usuario clica no botão submit de um formulario, uma ação de 
+            envio é executada, fazendo uma ação de reload acontecer na página.
+        
+        Sua sintaxe é: e.preventDefault()
+
+        Objeto: Representa uma instância de uma classe.
+
+        Método: Representa uma instrução ou um conjunto de instruções que executam uma tarefa
+
+        Propriedade: Representa uma caracteristica (atributo) de um Objeto.
+
+    Operadores aritméticos e funções matemáticas
+        adição (+)
+        subtração (-)
+        multiplicação (*)
+        divisão(/)
+        exponenciação(**)
+        modulo(%) - O módulo é utilizado para obter o resto da divisão entre dois números
+                    Ex: const a = 5 % 2 // a = 1
+                        const a = 7 % 3 // a = 1
+                        const a = 7 % 4 // a = 3
+
+        Tabela: Principais funções matematicas da classe Math
+
+        Math.abs(num) - Retorna o valor absoluto de um numero
+        Math.ceil(num) - Arredonda o valor para cima
+        Math.floor(num) - Arredonda o valor para baixo
+        Math.pow(base, exp) - Retorna a base elevada ao expoente
+        Math.random() - Retona um número aleatorio entre 0 e 1, com varias casas decimais
+        Math.round(num) - Arredonda o valor para o inteiro mais proximo
+        Math.sqrt(num) - Retorna a raiz quadrada do número(square root)
