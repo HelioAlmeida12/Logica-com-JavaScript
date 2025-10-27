@@ -9,4 +9,4 @@ const num1 = Math.floor(numero / 100)
 const sobra = numero % 100
 const num2 = Math.floor(sobra / 10)
 const num3 = sobra % 10
-console.log(`Iverido: ${num3}${num2}${num1}`)
+console.log(`Inverido: ${num3}${num2}${num1}`)
