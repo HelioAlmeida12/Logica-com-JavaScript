@@ -75,4 +75,44 @@ Capitulo 2:
         Math.round(num) - Arredonda o valor para o inteiro mais proximo
         Math.sqrt(num) - Retorna a raiz quadrada do número(square root)
 
-        
+ ----------------------------------------------------------------------------------------------------------
+
+ Capitulo 6
+
+    No capitulo 6 foi abordado sobre vetores. 
+    O que são os vetores? 
+        Os vetores ou arrays são estruturas que permitem armazenar uma lista de dados na memoria principal do computador.
+
+    Como declara um vetor?
+        const produtos = ["arroz", "feijão", "café"] ou const produtos = new array()
+            Porem, a primeira opção é a mais indicada até o momento para ser usada.
+
+
+    Inclusão e exclusão de itens
+
+        Principais metodos JavaScript que realizam essa tarefa são:
+            push() Adiciona um elemento ao final do vetor
+            unshift() Adiciona um elemento o inicio do vetor e desloca os elementos existentes uma posição abaixo
+            pop() Remove o último elemento do vetor
+            shift()Remove o primeiro elemento do vetor e desloca os elementos existentes uma posição acima
+
+    For..of e forEach()
+      Para percorrer os elementos de um vetor, a linguagem JS dispõe também do loop for..of e do método forEach(). Eles são 
+      equivalentes ao for tradicional, com uma sintaxe mais "enxuta".
+
+      for(const cidade of cidades){
+        console.log(cidadee)
+      }
+
+      Já o método forEach() é mais amplo e pode chamar uma função para manipular cada elemento do vetor.
+      
+      cidades.forEach((cidade, i) => {
+        console.log(`${i + 1}ª Cidade: ${cidade}`)
+      })
+ 
+      Algumas operações sobre vetores ficam mais simples se executada com forEach()
+      
+      const numeros = [5, 10, 15, 20]
+      let soma = 0
+      numeros.forEach(num => soma += num)
+      console.log(`Soma dos Números: ${soma}`)

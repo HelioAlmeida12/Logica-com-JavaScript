@@ -1,0 +1,33 @@
+Como foi resolvido esse exercicio?
+
+    1. Foi referenciado os elementos da página, como o "form" e o "pre"
+    2. Foi criado uma constante com o nome clubes e atribuido um vetor a ela
+    3. foi criado um metodo ouvir para o submit
+        um para o botão listar
+        e um para o botão Montar tabela
+
+    frm.addEventListener("submit", (e) =>{
+        Dentro do método ouvir submit foi usado o push() que adiciona um nome ao final
+        foi criado um método dispatchEvent() que serve para Despachar um evento (dispatch an event) ou Disparar um evento manualmente.
+        e foi criado uma constante com o valor "nome"
+
+    frm.btListar.addEventListener("click", () =>{  
+        dentro desse evento de escuta foi usado uma estrutura condiciona
+            para verificar se há clubes na lista ou se esta fazio, caso ocorra
+            o programa mostrara um alert
+        
+        foi criado um let com valor lista vazio
+        foi usado um for ...of (O for...of é um laço de repetição (ou loop) do JavaScript, usado para percorrer diretamente os valores de um conjunto de dados, como arrays, strings, ou outros objetos iteráveis.)
+
+    frm.btMontarTabela.addEventListener("click", () => {
+        foi criado uma const tam = clubes.length
+        foi usado uma estrutura condicional para verificar se 
+            tam == 0 || (tam % 2 == 1)
+        isso mostrara um alert com a seguinte msg (Deve haver numero par de clubes)
+        depois foi criado uma let jogos = ""
+        um const ultimo = tam - 1
+
+        depois foi usado um loop de repetição for
+    
+
+
