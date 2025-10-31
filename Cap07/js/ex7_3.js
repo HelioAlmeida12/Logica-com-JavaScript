@@ -1,0 +1,14 @@
+const palavra = prompt("Palavra: ") //Lê a palavra
+const tam = palavra.length//Obtém o tamanho
+
+//inverso inicia com a última letra da palavra em caixa alta
+let inverso = palavra.charAt(tam - 1).toUpperCase()
+
+//for decrescente percorre as demais letras e...
+for(let i = tam -2; i>=0; i--){
+    inverso += palavra.charAt(i).toLowerCase()//converte-as em caixa baixa
+}
+
+//exibe palavra original e invertida
+alert(`Palavra: ${palavra}\nInvertida: ${inverso}`)
+

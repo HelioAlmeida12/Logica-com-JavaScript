@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        const anuncio = prompt("Anuncio: ") //Lê o anuncio
+        let numPalavras = 0 //inicializa contador
+        const tam = anuncio.length //obtém o tamanho
+        for(let i = 0; i < tam; i++){ //percorre os caracteres do anuncio
+            if(anuncio.charAt(i) == " "){ //se encontrou algum espaço
+                numPalavras++ //incrementa contador
+            }
+        }
+
+        //exibe anuncio e número de palavras (que é o numero de espaços + 1)
+        alert(`Anuncio: ${anuncio}\nNº Palavras: ${(numPalavras + 1)}`)
+    </script>
+</body>
+</html>

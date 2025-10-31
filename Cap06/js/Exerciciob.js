@@ -9,7 +9,7 @@ frm.addEventListener("submit", (e) =>{
     const num = Number(frm.inNum.value)
 
     if(numeros.includes(num)){
-        alert(`Insira outro Número! Você já adicionou 0 ${num}`)
+        alert(`Insira outro Número! Você já adicionou o numero ${num}`)
 
         //limpa form e posiciona cursor em inNum
         frm.reset()
